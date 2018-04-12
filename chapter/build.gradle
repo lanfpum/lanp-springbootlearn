@@ -25,6 +25,9 @@ repositories {
 
 
 dependencies {
+	compile 'org.springframework.boot:spring-boot-starter:2.0.1.RELEASE'
+	compile 'org.springframework.statemachine:spring-statemachine-core:2.0.1.RELEASE'
+
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
